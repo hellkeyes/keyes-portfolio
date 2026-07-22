@@ -1,9 +1,6 @@
 function Navbar(){
     return (
         <nav className='navbar'>
-            <a href='/' className='logo'>
-            PATEL HELLY
-            </a>
 
             <div className='nav-links'>
                 <a href='#works'>WORK</a>
