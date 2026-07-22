@@ -11,21 +11,21 @@ function Works() {
       duration: '5 MONTHS',
       location: 'SURAT',
 
-      description: [
-        'Designed and built a 7-phase intelligent booking parser solo, automating the freight booking lifecycle end-to-end.',
-
-        'Used Google Sheets API to sync and maintain live client and operational route data for the operations team.',
-
-        'Eliminated manual email triage by building a system that automatically tagged actionable booking emails, significantly reducing review workload.',
-
-        'Built AI voice agents for shipment tracking integrating ElevenLabs, Vapi, and Twilio.',
-
-        'Developed a mobile-friendly NHVR compliance tool frontend for driver work diary breach calculations in Australian transport operations.',
-
-        'Monitored Azure Data Factory pipelines and reported errors to support cloud data operations.',
-
-        'Researched linehaul department workflows and daily route planning processes, contributing to the scoping of an ML-based prediction system to optimize freight operations.'
-      ],
+  description: [
+    'Contributed to the frontend development of a deployed driver compliance application, building a mobile-friendly interface for driver work diary calculations and compliance breach reporting in Australian transport operations.',
+  
+    'Designed and built a intelligent booking parser solo, automating the freight booking lifecycle end-to-end.',
+  
+    'Used Google Sheets API to sync and maintain live client and operational route data for the operations team.',
+  
+    'Eliminated manual email triage by building a system that automatically tagged actionable booking emails, significantly reducing review workload.',
+  
+    'Built AI voice agents for shipment tracking integrating ElevenLabs, Vapi, and Twilio.',
+  
+    'Monitored Azure Data Factory pipelines and reported errors to support cloud data operations.',
+  
+    'Researched linehaul department workflows and daily truck allocation and route planning processes, contributing to the early-stage research and scoping of an ML-based system to automate truck allocation and predict optimal routes for drivers.'
+  ],
 
       technologies:
         'PYTHON · AI · AUTOMATION · GOOGLE SHEETS API · ELEVENLABS · VAPI · TWILIO · AZURE'
