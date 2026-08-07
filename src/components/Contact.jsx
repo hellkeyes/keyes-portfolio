@@ -21,7 +21,7 @@ function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:your@email.com">
+          <a href="mailto:hellyhpatel04@email.com">
             // EMAIL 
           </a>
 
@@ -34,7 +34,7 @@ function Contact() {
           </a>
 
           <a
-            href="YOUR_GITHUB_URL"
+            href="https://github.com/hellkeyes/"
             target="_blank"
             rel="noreferrer"
           >

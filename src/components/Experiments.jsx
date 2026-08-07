@@ -6,8 +6,8 @@ function Experiments() {
       description:
         'Contributed to the frontend of a deployed driver compliance platform for visualizing driver work diary breach calculations.',
       tools: 'Frontend · FastAPI · Python',
-      live: 'YOUR_DEPLOYED_LINK',
-      github: 'YOUR_GITHUB_LINK',
+      // live: 'YOUR_DEPLOYED_LINK',
+      // github: 'YOUR_GITHUB_LINK',
     },
     {
       title: 'Intelligent Freight Booking Parser',
@@ -16,7 +16,7 @@ function Experiments() {
         'Built a 7-phase MVP exploring automated freight booking workflows, document extraction, routing logic, and client confirmation.',
       tools: 'Python · Claude · YAML',
       live: '',
-      github: 'YOUR_GITHUB_LINK',
+      // github: 'YOUR_GITHUB_LINK',
     },
     {
       title: 'Heart Disease Prediction',
@@ -88,7 +88,7 @@ function Experiments() {
       description:
         'Built an n8n workflow that uses an LLM to generate personalized LinkedIn posts and draft content for observance days.',
       tools: 'n8n · Ollama API · LinkedIn API',
-      live: '',
+      // live: '',
       // github: 'YOUR_GITHUB_LINK',
     },
   ]
