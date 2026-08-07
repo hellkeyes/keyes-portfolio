@@ -37,6 +37,33 @@ function Experiments() {
       // github: 'YOUR_GITHUB_LINK',
     },
     {
+      title: 'TrapFall - Real-Time Multiplayer Strategy Game',
+      type: 'PERSONAL PROJECT · IN DEVELOPMENT',
+      description:
+        'Building a real-time multiplayer strategy game with private rooms, WebSocket communication, JWT authentication, and synchronized game state management.',
+      tools: 'React · FastAPI · WebSockets · JWT · Python',
+      live: '',
+      github: 'https://github.com/hellkeyes/Trapfall',
+    },
+    {
+      title: 'Protein Price Monitoring Bot',
+      type: 'AUTOMATION · PERSONAL PROJECT',
+      description:
+        'Built an automated monitoring bot that tracks protein product availability and price changes using browser automation.',
+      tools: 'Python · Playwright · Automation',
+      live: '',
+      github: 'https://github.com/hellkeyes/protein-monitor-bot',
+    },
+    {
+      title: 'Netflix + IMDb Explorer',
+      type: 'FRONTEND · PERSONAL PROJECT',
+      description:
+        'Building a movie discovery platform inspired by Netflix and IMDb with search, browsing, ratings, and entertainment-focused UI.',
+      tools: 'React · JavaScript · APIs',
+      live: '',
+      github: 'https://github.com/hellkeyes/netflix-imdb-extension',
+    },
+    {
       title: 'DSA Pattern Tracker',
       type: 'PERSONAL PROJECT · FULL-STACK',
       description:
