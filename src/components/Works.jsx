@@ -14,13 +14,11 @@ function Works() {
   description: [
     'Contributed to the frontend development of a deployed driver compliance application, building a mobile-friendly interface for driver work diary calculations and compliance breach reporting in Australian transport operations.',
   
-    'Designed and built a intelligent booking parser solo, automating the freight booking lifecycle end-to-end.',
+    'Built a Python-based MVP to evaluate the feasibility of automating the freight booking process, using scripts for booking data extraction, validation, and routing logic.',,
   
     'Used Google Sheets API to sync and maintain live client and operational route data for the operations team.',
   
     'Eliminated manual email triage by building a system that automatically tagged actionable booking emails, significantly reducing review workload.',
-  
-    'Built AI voice agents for shipment tracking integrating ElevenLabs, Vapi, and Twilio.',
   
     'Monitored Azure Data Factory pipelines and reported errors to support cloud data operations.',
   

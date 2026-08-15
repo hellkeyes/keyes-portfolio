@@ -1,148 +1,94 @@
 function Experiments() {
-  const projects = [
+  const experiments = [
     {
-      title: 'Driver Compliance Rule Engine',
-      type: 'FRONTEND CONTRIBUTION · DEPLOYED',
-      description:
-        'Contributed to the frontend of a deployed driver compliance platform for visualizing driver work diary breach calculations.',
-      tools: 'Frontend · FastAPI · Python',
-      // live: 'YOUR_DEPLOYED_LINK',
-      // github: 'YOUR_GITHUB_LINK',
-    },
-    {
-      title: 'Intelligent Freight Booking Parser',
-      type: 'INTERNSHIP · MVP',
-      description:
-        'Built a 7-phase MVP exploring automated freight booking workflows, document extraction, routing logic, and client confirmation.',
-      tools: 'Python · Claude · YAML',
-      live: '',
-      // github: 'YOUR_GITHUB_LINK',
-    },
-    {
-      title: 'Heart Disease Prediction',
-      type: 'MACHINE LEARNING · DEPLOYED',
-      description:
-        'Built and deployed an ML application for predicting heart disease with support for individual predictions and bulk CSV uploads.',
-      tools: 'Python · Streamlit · Scikit-learn',
-      live: 'https://heart-disease-prediction-hpay.onrender.com',
-      github: 'https://github.com/Kinda-Hell/heart-disease-prediction',
-    },
-    {
+      number: '01',
       title: 'Loan Approval Prediction',
       type: 'MACHINE LEARNING',
       description:
-        'Built a machine learning system to predict loan approval using applicant and property features.',
+        'A machine learning experiment exploring loan approval prediction using applicant and property features.',
       tools: 'Python · Pandas · Scikit-learn · XGBoost',
-      live: '',
-      // github: 'YOUR_GITHUB_LINK',
     },
     {
-      title: 'TrapFall - Real-Time Multiplayer Strategy Game',
-      type: 'PERSONAL PROJECT · IN DEVELOPMENT',
-      description:
-        'Building a real-time multiplayer strategy game with private rooms, WebSocket communication, JWT authentication, and synchronized game state management.',
-      tools: 'React · FastAPI · WebSockets · JWT · Python',
-      live: '',
-      github: 'https://github.com/hellkeyes/Trapfall',
-    },
-    {
-      title: 'Protein Price Monitoring Bot',
-      type: 'AUTOMATION · PERSONAL PROJECT',
-      description:
-        'Built an automated monitoring bot that tracks protein product availability and price changes using browser automation.',
-      tools: 'Python · Playwright · Automation',
-      live: '',
-      github: 'https://github.com/hellkeyes/protein-monitor-bot',
-    },
-    {
-      title: 'Netflix + IMDb Explorer',
-      type: 'FRONTEND · PERSONAL PROJECT',
-      description:
-        'Building a movie discovery platform inspired by Netflix and IMDb with search, browsing, ratings, and entertainment-focused UI.',
-      tools: 'React · JavaScript · APIs',
-      live: '',
-      github: 'https://github.com/hellkeyes/netflix-imdb-extension',
-    },
-    {
-      title: 'DSA Pattern Tracker',
-      type: 'PERSONAL PROJECT · FULL-STACK',
-      description:
-        'A Flask application for tracking LeetCode practice through spaced repetition, pattern mastery, review scheduling, and practice history.',
-      tools: 'Python · Flask · SQLAlchemy · SQLite',
-      live: 'YOUR_DEPLOYED_LINK',
-      github: 'https://github.com/hellkeyes/flask-dsa-tracker',
-    },
-    {
+      number: '02',
       title: 'IT Support Ticket Analytics',
       type: 'DATA ANALYTICS',
       description:
-        'Built a Power BI dashboard analyzing 12,000+ IT support tickets across teams, priorities, agents, and locations.',
+        'A Power BI dashboard analyzing 12,000+ IT support tickets across teams, priorities, agents, and locations.',
       tools: 'Power BI · DAX · Power Query',
-      live: '',
       github: 'YOUR_GITHUB_LINK',
     },
-    {
-
-      title: 'LinkedIn Content Automation',
-      type: 'AUTOMATION · INTERNSHIP PROJECT',
+     {
+      number: '03',
+      title: 'Protein Price Monitoring Bot',
+      type: 'AUTOMATION · PERSONAL PROJECT',
       description:
-        'Built an n8n workflow that uses an LLM to generate personalized LinkedIn posts and draft content for observance days.',
-      tools: 'n8n · Ollama API · LinkedIn API',
-      // live: '',
-      // github: 'YOUR_GITHUB_LINK',
+        'An automated monitoring bot that tracks protein products for availability and price changes using browser automation.',
+      tools: 'Python · Playwright · Automation',
+      github: 'https://github.com/hellkeyes/protein-monitor-bot',
     },
+    {
+      number: '04',
+      title: 'Netflix + IMDb Explorer',
+      type: 'FRONTEND · PERSONAL PROJECT',
+      description:
+        'A movie discovery platform inspired by Netflix and IMDb with search, browsing, ratings, and an entertainment-focused interface.',
+      tools: 'React · JavaScript · APIs',
+      github: 'https://github.com/hellkeyes/netflix-imdb-extension',
+    }
   ]
 
   return (
     <section id="experiments" className="experiments">
       <div className="section-header">
         <p className="section-number">// EXPERIMENTS</p>
-        <h2>PROJECTS & RESEARCH</h2>
+        <h2>THINGS I'VE BEEN BUILDING</h2>
       </div>
 
       <div className="projects-grid">
-        {projects.map((project) => (
-          <article className="project-card" key={project.number}>
+        {experiments.map((experiment) => (
+          <article
+            className="project-card"
+            key={experiment.number}
+          >
             <div className="project-top">
               <span className="project-number">
-                {project.number}
+                {experiment.number}
               </span>
-
             </div>
 
-            <h3>{project.title}</h3>
+            <h3>{experiment.title}</h3>
 
             <span className="project-type">
-              {project.type}
+              {experiment.type}
             </span>
 
             <p className="project-description">
-              {project.description}
+              {experiment.description}
             </p>
 
             <div className="project-bottom">
               <span className="project-tools">
-                {project.tools}
+                {experiment.tools}
               </span>
 
               <div className="project-links">
-                {project.live && (
+                {experiment.live && (
                   <a
-                    href={project.live}
+                    href={experiment.live}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LIVE 
+                    LIVE
                   </a>
                 )}
 
-                {project.github && (
+                {experiment.github && (
                   <a
-                    href={project.github}
+                    href={experiment.github}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GITHUB 
+                    GITHUB
                   </a>
                 )}
               </div>
