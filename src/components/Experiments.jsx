@@ -1,24 +1,7 @@
 function Experiments() {
   const experiments = [
-    {
-      number: '01',
-      title: 'Loan Approval Prediction',
-      type: 'MACHINE LEARNING',
-      description:
-        'A machine learning experiment exploring loan approval prediction using applicant and property features.',
-      tools: 'Python · Pandas · Scikit-learn · XGBoost',
-    },
-    {
-      number: '02',
-      title: 'IT Support Ticket Analytics',
-      type: 'DATA ANALYTICS',
-      description:
-        'A Power BI dashboard analyzing 12,000+ IT support tickets across teams, priorities, agents, and locations.',
-      tools: 'Power BI · DAX · Power Query',
-      github: 'YOUR_GITHUB_LINK',
-    },
      {
-      number: '03',
+      number: '01',
       title: 'Protein Price Monitoring Bot',
       type: 'AUTOMATION · PERSONAL PROJECT',
       description:
@@ -27,13 +10,30 @@ function Experiments() {
       github: 'https://github.com/hellkeyes/protein-monitor-bot',
     },
     {
-      number: '04',
+      number: '02',
       title: 'Netflix + IMDb Explorer',
       type: 'FRONTEND · PERSONAL PROJECT',
       description:
-        'A movie discovery platform inspired by Netflix and IMDb with search, browsing, ratings, and an entertainment-focused interface.',
-      tools: 'React · JavaScript · APIs',
+        'A Chrome extension that detects Netflix titles and injects IMDb and Rotten Tomatoes ratings into the Netflix UI, handling dynamic rendering, movie/series matching, and release-year validation.',
+      tools: 'JavaScript · Chrome Extensions · OMDb API',
       github: 'https://github.com/hellkeyes/netflix-imdb-extension',
+    },
+    {
+      number: '03',
+      title: 'Loan Approval Prediction',
+      type: 'MACHINE LEARNING',
+      description:
+        'A machine learning experiment exploring loan approval prediction using applicant and property features.',
+      tools: 'Python · Pandas · Scikit-learn · XGBoost',
+    },
+    {
+      number: '04',
+      title: 'IT Support Ticket Analytics',
+      type: 'DATA ANALYTICS',
+      description:
+        'A Power BI dashboard analyzing 12,000+ IT support tickets across teams, priorities, agents, and locations.',
+      tools: 'Power BI · DAX · Power Query',
+      github: 'YOUR_GITHUB_LINK',
     }
   ]
 
