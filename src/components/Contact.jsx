@@ -21,7 +21,7 @@ function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:hellyhpatel04@email.com">
+          <a href="mailto:h.pines.falls@gmail.com">
             // EMAIL 
           </a>
 
