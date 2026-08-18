@@ -15,10 +15,9 @@ function Hero() {
         </p>
 
         <p className="hero-description">
-          I build things: sometimes because it's the job,
-          sometimes just to see if I can. Off the clock,
-          I'm probably deep in a movie or a book, doing
-          the same thing in a different language.
+          Exploring software through Python, React, and 
+          whatever I’m curious enough to build. When I’m not coding, 
+          I’m probably watching a movie or getting lost in a book.
         </p>
       </div>
     </section>
